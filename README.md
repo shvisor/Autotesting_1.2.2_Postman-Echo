@@ -1,1 +1,2 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/rw8x3yt89vtbxk2s?svg=true)](https://ci.appveyor.com/project/shvisor/autotesting-2-1-rest)
+[![Build status](https://ci.appveyor.com/api/projects/status/jl0w2k8357ivepo4/branch/main?svg=true)](https://ci.appveyor.com/project/shvisor/autotesting-2-3-postman-echo/branch/main)
+
