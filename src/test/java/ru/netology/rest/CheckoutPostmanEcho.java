@@ -1,11 +1,9 @@
 package ru.netology.rest;
 
-import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
 
 public class CheckoutPostmanEcho {
     @Test
@@ -22,7 +20,7 @@ public class CheckoutPostmanEcho {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("date", equalTo("Still Loving You - Queen (Скорпионы)"))
+                .body("data", equalTo("Still Loving You - Queen (Скорпионы)"))
         ;
     }
 }
