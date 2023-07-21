@@ -14,10 +14,10 @@ public class CheckoutPostmanEchoTest {
             .baseUri("https://postman-echo.com")
             .contentType("text/plain; charset=UTF-8")
             .body("Still Loving You - Scorpions (Скорпионы)") // отправляемые данные (заголовки и query можно выставлять аналогично)
-// Выполняемые действия
+        // Выполняемые действия
         .when()
             .post("/post")
-// Проверки
+        // Проверки
         .then()
             .statusCode(200)
             .body("data", equalTo("Still Loving You - Scorpions (Скорпионы)"))
